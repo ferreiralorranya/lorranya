@@ -1,12 +1,12 @@
 
 <?php
 
-$soma = function ($x, $y) 
+$somatorio = function ($x, $y) 
 {
     return $x + $y;
 };
 
-echo $soma(6, 8) . "<br>";
+echo $somatorio(6, 8) . "<br>";
 
 
 echo "<br>";
@@ -18,7 +18,7 @@ function executar($x, $y, $op, $funcao)
     echo "$x $op $y = $resultado <br>";
 }
 
-executar(2, 3, '+', $soma);
+executar(2, 3, '+', $somatorio);
 
 
 echo "<br>";
